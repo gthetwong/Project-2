@@ -66,7 +66,7 @@ $(document).on('ready page:load', function(){
       $("#content").empty();
       $.get("/invites.json").done(function(data){
 
-        var invites = $("<div class=\"centered\" id=\"invites\"><div class=\"inv_buttons\"><h2>Invites</h2><input id=\"incbtn\" type=\"submit\" value=\"Incoming\"><input id=\"outbtn\" type=\"submit\" value=\"Outgoing\"></div></div>");
+        var invites = $("<div class=\"centered\" id=\"invites\"><div class=\"inv_buttons\"><h1>Invites</h1><input id=\"incbtn\" type=\"submit\" value=\"Incoming\"><input id=\"outbtn\" type=\"submit\" value=\"Outgoing\"></div></div>");
         var inc = $("<div id=\"inc_invites\"> </div>");
         var out = $("<div id=\"out_invites\"> </div>");
 

@@ -26,7 +26,10 @@ src: url(ASansreg.ttf);
 html, body{
   	height:90%;
   	font-family: 'ASansreg', sans-serif;
-  	background-color: #fafafa;
+  	background: url("/assets/18.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    /*background-color: #fafafa;*/
   	color:#2c3e50;
   	opacity:1;
   }
@@ -45,6 +48,7 @@ button {
   opacity:.9;
   border-radius:5px;
   border:none;
+  font-family:'ASansreg', sans-serif;
 }
 
 button a {
@@ -60,6 +64,7 @@ input {
   background-color:#e74c3c;
   border:none;
   color:#fff;
+  font-family:'ASansreg', sans-serif;
   /*border: 1px solid #c0392b;*/
 }
 
@@ -98,7 +103,7 @@ hr {
  #app_name{
  	text-align: center;
  	margin-top:0;
-  padding:10px;
+  padding: 0 10px 10px 10px;
 	position:fixed;
 	left:0;
 	top:0;
@@ -108,7 +113,7 @@ hr {
  	font-weight: 200;
   font-size: 35px;
   /*color: #00059C;*/
-  	color:#FFF;
+  color:#FFF;
   	/*opacity: 1;*/
   height: 40px;
   background-color:#c0392b;
@@ -179,7 +184,7 @@ hr {
 }
 
 #contacts h1{
-	margin-top:50px;
+	/*margin-top:50px;*/
 	padding:0;
 	text-align: center;
 	position:relative;
@@ -195,7 +200,7 @@ hr {
 }
 
 inc_contact{
-	 clear:both;
+	clear:both;
   min-width: 250px;
   margin: 20px auto;
   color:#fff;
@@ -264,6 +269,8 @@ inc_contact{
   width:50%;
   float:right;
   background-color:#fff;
+  height:100%;
+  border-top-right-radius: 5px;
 }
 .address {
 	position:relative;
@@ -271,13 +278,18 @@ inc_contact{
 	font-size:22px;
 	width:100%;
   background-color: #ecf0f1;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 
 /*-----------Invites--------------*/
 
 #invites{
-	color:#2c3e50;
+	color:#fff;
+  width:90%;
+  margin: 0 auto;
+  font-size:24px;
 }
 
 .inv_buttons input[type="submit"]{
@@ -306,7 +318,9 @@ inc_contact{
 	clear:both;
   min-width: 250px;
   margin: 20px auto;
-  color:#fff;
+  color:#2c3e50;
+  background-color:#fff;
+  border-radius:5px;
 	/*background-color: blue;*/
 }
 
@@ -314,7 +328,9 @@ inc_contact{
 	clear:both;
   min-width: 250px;
   margin: 20px auto;
-  color:#fff;
+  color:#2c3e50;
+  background-color:#fff;
+  border-radius:5px;
 	/*background-color:yellow;*/
 }
 
@@ -325,7 +341,7 @@ inc_contact{
 
 
 #profile {
-	color:#2c3e50;
+	color:#fff;
 	font-size:20px;
 }
 

@@ -27,7 +27,7 @@ src: url(ASansreg.ttf);
 html, body{
   	height:90%;
   	font-family: 'ASansreg', sans-serif;
-  	background: url("/assets/images/18.jpg");
+  	background: url("/assets/18.jpg");
     background-size:cover;
     background-attachment: fixed;
     /*background-color: #fafafa;*/
